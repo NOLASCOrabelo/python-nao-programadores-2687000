@@ -5,4 +5,4 @@ idade = '20'
 salarioatual = '1400.0'
 
 estouquasesurtando = True
-uerotrabalhar= False
+querotrabalhar= False

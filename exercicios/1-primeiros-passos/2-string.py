@@ -21,3 +21,6 @@ print.title
 print.capitalize
 
 print(f"Paloma é uma mulher de 46 anos que deseja mudar de profissão, por isso está estudando 'python'.")
+divisao=4/2.3
+print(divisao)
+round(divisao,2)
