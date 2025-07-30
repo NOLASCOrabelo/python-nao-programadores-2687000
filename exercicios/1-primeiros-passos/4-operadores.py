@@ -1,17 +1,15 @@
 ano_nascimento = 1989
 ano_formatura = 2010
 
-subtracao = 2010 - 1989
-print(subtracao)
+idade = 2010 - 1989
+print(idade)
 
 
-print[10>30] and [98<=100] 
-print[40==41]or[70 == 70]
-not [3==3]
+print(2010 > 1989)
+print(2010 <= 1989)
+print(2010==1989)
 
 
-x=10
-y=-10
-x>y  =True
-x<=y =False
-x==y =False
+print((2010>1989))and((2010>1989))
+print((2010<=1989))or((2010>1989))
+print(not(1989==2010))
