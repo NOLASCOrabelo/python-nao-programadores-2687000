@@ -1,10 +1,17 @@
 ano_nascimento = 1989
 ano_formatura = 2010
 
-# Considerando que as variáveis acima correspondem a 'Gerlaine', descubra a idade dela no ano da sua formatura
+subtracao = 2010 - 1989
+print(subtracao)
 
 
-# Escreva expressões comparativas usando os operadores relacionais >, <= e ==. Imprima na tela as respostas
+print[10>30] and [98<=100] 
+print[40==41]or[70 == 70]
+not [3==3]
 
 
-# Crie expressões comparativas mais complexas utilizando operadores lógicos and, or e not. Imprima na tela as respostas
+x=10
+y=-10
+x>y  =True
+x<=y =False
+x==y =False
