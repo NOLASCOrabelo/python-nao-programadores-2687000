@@ -1,13 +1,23 @@
-# Crie uma lista apenas com elementos numéricos
+lista=[]
+numerica=[1, 2, 3, 4]
+tiposeestruturadedados =['numerica', 'mista', 'extend', 'adicionais', 'append', 'remove', 'pop', 'slicen']
+print(tiposeestruturadedados)
+['numerica', 'mista', 'extend', 'adicionais', 'append', 'remove', 'pop', 'slicen']
 
-# Crie uma lista contendo todos os tipos e estrutura de dados que você aprendeu até agora
+tiposeestruturadedados[0:5]
+['numerica', 'mista', 'extend', 'adicionais', 'append']
 
-# Imprima na tela apenas os 5 primeiros elementos da lista
+tiposeestruturadedados[0:-1:2]
+['numerica', 'extend', 'append', 'pop']
 
-# Crie um slice na lista para que imprima na tela os elementos de índice par
+tiposeestruturadedados.pop()
+'slicen'
 
-# Remova da lista o último item
+tiposeestruturadedados_adicionais=['slice']
+tiposeestruturadedados.extend(tiposeestruturadedados_adicionais)
+print(tiposeestruturadedados)
+['numerica', 'mista', 'extend', 'adicionais', 'append', 'remove', 'pop', 'slice']
 
-# Insira na lista um novo item
-
-# Remova da lista um item específico
+tiposeestruturadedados.remove('mista')
+print(tiposeestruturadedados)
+['numerica', 'extend', 'adicionais', 'append', 'remove', 'pop', 'slice']
