@@ -1,26 +1,26 @@
 resumo = "Paloma é uma mulher de 46 anos que deseja mudar de profissão, por isso está estudando 'python'."
 
-print('Resumo')
+print(Resumo)
 
 
-print[1]
+print(resumo[1])
 
 
-print[24:25]
+print(resumo[23:25])
 
 
-print[81:]
+print(resumo[62:])
 
 
-print.upper
+print(resumo.upper())
 
-print.lower
+print(resumo.lower())
 
-print.title
+print(resumo.title())
 
-print.capitalize
+print(resumo.capitalize())
 
-print(f"Paloma é uma mulher de 46 anos que deseja mudar de profissão, por isso está estudando 'python'.")
-divisao=4/2.3
-print(divisao)
-round(divisao,2)
+idade = 32
+
+print(f"Paloma é uma mulher de {idade} anos que deseja mudar de profissão, por isso está estudando 'python'.")
+
