@@ -1,5 +1,20 @@
-# Nesse exercício coletaremos dados de uma estudante, armazenaremos em um dicionário e imprimiremos na tela esse dados em um formato amigável.
 
-# 1. Solicite a estudante os seguintes dados: nome, ano que conheceu o LinkedIn, ano atual e os cursos realizados no LinkedIn Learning separados por virgula em ordem cronológica
-# 2. Armazene esses dados em um dicionário
-# 3. Imprima na tela uma string com as informações de nome, ano_conheceu_linkedin, total de anos transcurridos, total de cursos realizados e (apenas) o primeiro e último curso.
+estudante = { }
+
+
+estudante['nome'] = input('Qual seu nome?')
+estudante['ano_que_conheceu_o_linkedin'] = int(input('Quando conheceu o Linkedin?' ))
+estudante['ano_atual'] = int(input('E o ano atual? '))
+cursos = input('Quais cursos realizou?Todos separados por virgula e ordem cronologica:')
+ 
+estudante['cursos'] = cursos.split(', ')
+
+
+
+
+
+
+total_anos = estudante['ano_atual'] - estudante['ano_que_conheceu_o_linkedin']
+total_cursos = len(estudante['cursos'])
+
+print(f"Como vai {estudante['nome']}, o ano que conheceu o Linkedin foi {estudante['ano_que_conheceu_o_linkedin']}, Durante esses {total_anos} anos, você realizou {total_cursos} cursos, sendo o primeiro curso realizado {estudante['cursos'][0]}, e o último sendo {estudante['cursos'][-1]}")
