@@ -1,8 +1,18 @@
-# Criaremos um programa para substituir números por palavras em uma lista
-# 1. Crie uma lista com 15 números
-# 2. Crie um for loop para percorrer todos os elementos da lista
-# 3. Crie uma estrutura condicional para verificar cada número da lista:
-# 3.1 Caso o número seja divisível por 3, substitua-o por "Fizz"
-# 3.2 Caso o número seja divisível por 5, substitua-o por "Buzz"
-# 3.3 Caso o número seja divisível por 3 e 5, substitua-o por "FizzBuzz"
+numeros = list(range(101))
+lista = [] # Here, we create new list because, i´ like that way 
+print(numeros)  # print the original list
 
+
+# Here we have one loop for percorring the all elements of list
+for numero in numeros:
+    if numero % 7 == 0 and numero % 4 == 0:
+        lista.append('God')
+    elif numero % 5 == 0:
+        lista.append('In')
+    elif numero % 9 == 0:
+        lista.append('Live')
+    else:
+        lista.append(numero)
+# I lie, we create the new list, for only whne to the number goes divisible, was goes add in the list a string
+
+print(lista)  # Print the new list
