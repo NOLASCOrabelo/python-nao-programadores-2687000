@@ -1,7 +1,10 @@
-# Crie duas variáveis do tipo numérica, uma sinalizando a fase atual do curso e outra o nível final
+salarie = 1600
+expenses = 638
+
+while salarie >= expenses:
+  print(f'All set. Your {salarie} is not so bad')
+  salarie = 1
+else:
+  print(f'Will you survive')
 
 
-# Crie um while loop que imprima na tela o nível atual
-
-
-# Insira "else" no while loop anterior.
